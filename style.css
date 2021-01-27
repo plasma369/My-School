@@ -15,6 +15,7 @@ body
     font-family: 'Cinzel Decorative', cursive;
     padding: 50px;
     text-align: center;
+    font-weight: 700;
 }
 h1 {
     font-size: 40px;
@@ -53,10 +54,17 @@ input
     background: grey;
 }
 
-.my_nav_bar 
+#nav-bar 
 {
     position: sticky;
     top: 0;
     z-index: 99999;
     
+}
+
+#name
+{
+    
+    font-size: 70px;
+    color: dodgerblue;
 }
